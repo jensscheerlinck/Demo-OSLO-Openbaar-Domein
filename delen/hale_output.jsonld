@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "type": "@type",
+    "Moestuin": "@nest",
+    "Fietsstalling": "@nest",
+    "Moestuin": "@nest",
+    "Groenvlak": "@nest",
+    "voorkomen": { "@id": "http://data.vlaanderen.be/ns/openbaardomein#voorkomen", "@type": "@id" },
+    "oppervlakte": "http://data.vlaanderen.be/ns/openbaardomein#oppervlakte",
+    "geometrie": "http://www.w3.org/ns/locn#geometry",
+    "lengte": "http://data.vlaanderen.be/ns/openbaardomein#lengte",
+    "nauwkeurigheid": { "@id": "http://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid", "@type": "@id" },
+    "overdekt": "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#overdekt",
+    "capaciteit": "http://data.vlaanderen.be/ns/openbaardomein#capaciteit",
+    "afsluitbaar": "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#afsluitbaar",
+    "MultiPolygon": "http://www.opengis.net/ont/sf#MultiPolygon",
+    "coordinates": { "@id": "http://www.opengis.net/ont/geosparql#asWKT", "@type": "http://www.opengis.net/ont/geosparql#wktLiteral" }
+  },
+  "@id": "http://example.org/graphs/campus-desterre-gent",
+  "@graph": [ 
+    {
+      "Moestuin" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen",
+        "oppervlakte" : "2.6297410000206165E-8",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7114,51.0254],[3.7117,51.0255],[3.7118,51.0255],[3.7118,51.0255],[3.7118,51.0255],[3.7118,51.0254],[3.7115,51.0253],[3.7114,51.0254]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin",
+        "lengte" : "8.282647236786915E-4",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Fietsstalling" : {
+        "overdekt" : "false",
+        "capaciteit" : "6",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7119,51.0248],[3.7119,51.0248],[3.7119,51.0248],[3.7119,51.0248],[3.7119,51.0248]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Fietsstalling",
+        "afsluitbaar" : "false",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Fietsstalling" : {
+        "overdekt" : "false",
+        "capaciteit" : "6",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7119,51.0248],[3.7119,51.0248],[3.7119,51.0247],[3.7119,51.0247],[3.7119,51.0248]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Fietsstalling",
+        "afsluitbaar" : "false",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Groenvlak" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "oppervlakte" : "7.554885850019092E-7",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7119,51.0247],[3.7119,51.0247],[3.712,51.0247],[3.712,51.0247],[3.712,51.0247],[3.712,51.0248],[3.7119,51.0249],[3.7119,51.0249],[3.7119,51.0249],[3.7117,51.0248],[3.7116,51.0248],[3.7114,51.0249],[3.7112,51.025],[3.711,51.0251],[3.711,51.025],[3.711,51.0249],[3.7109,51.0249],[3.7109,51.0251],[3.7109,51.0251],[3.7108,51.0251],[3.7108,51.0251],[3.7108,51.025],[3.7107,51.025],[3.7106,51.025],[3.7106,51.025],[3.7105,51.0251],[3.7105,51.0252],[3.7106,51.0253],[3.7108,51.0253],[3.7118,51.0257],[3.7122,51.0259],[3.7123,51.0259],[3.7123,51.0259],[3.7125,51.0258],[3.7125,51.0258],[3.7125,51.0258],[3.7124,51.0258],[3.7123,51.0258],[3.711,51.0253],[3.7112,51.0252],[3.7113,51.0251],[3.7115,51.0249],[3.7118,51.025],[3.712,51.0249],[3.7121,51.0249],[3.7122,51.025],[3.7122,51.025],[3.7124,51.0249],[3.7125,51.0247],[3.7124,51.0247],[3.7123,51.0247],[3.7122,51.0246],[3.7121,51.0246],[3.7121,51.0245],[3.7121,51.0244],[3.7122,51.0244],[3.7122,51.0243],[3.7118,51.0243],[3.7118,51.0244],[3.7118,51.0245],[3.7118,51.0245],[3.7117,51.0245],[3.7118,51.0245],[3.7118,51.0245],[3.7118,51.0246],[3.7118,51.0246],[3.7119,51.0247]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "lengte" : "0.009700204267903263",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Groenvlak" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "oppervlakte" : "5.749913499924708E-8",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7128,51.0238],[3.7128,51.0238],[3.7129,51.0238],[3.7129,51.0239],[3.713,51.0239],[3.7131,51.0239],[3.7131,51.0239],[3.7132,51.024],[3.7131,51.024],[3.7131,51.024],[3.713,51.024],[3.7129,51.0241],[3.7129,51.0241],[3.713,51.0241],[3.7131,51.0241],[3.7132,51.0241],[3.7132,51.0241],[3.7133,51.024],[3.7133,51.024],[3.7132,51.0239],[3.7132,51.0239],[3.7128,51.0238]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "lengte" : "0.0017059216695947499",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Groenvlak" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "oppervlakte" : "3.5119082000037647E-7",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7115,51.0235],[3.7115,51.0235],[3.7114,51.0235],[3.7114,51.0235],[3.7114,51.0234],[3.7114,51.0234],[3.7113,51.0235],[3.7114,51.0235],[3.7113,51.0235],[3.7113,51.0236],[3.7114,51.0236],[3.7114,51.0237],[3.7114,51.0237],[3.7115,51.0237],[3.7115,51.0237],[3.7116,51.0238],[3.7116,51.0239],[3.7117,51.024],[3.7118,51.0242],[3.7123,51.0243],[3.7124,51.0243],[3.7126,51.0241],[3.7125,51.0241],[3.7117,51.0237],[3.7117,51.0237],[3.7117,51.0237],[3.7117,51.0236],[3.7116,51.0236],[3.7116,51.0236],[3.7116,51.0236],[3.7117,51.0236],[3.7117,51.0235],[3.7116,51.0235],[3.7115,51.0235]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "lengte" : "0.003584851431774443",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Groenvlak" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "oppervlakte" : "6.788403000053682E-8",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7132,51.025],[3.7132,51.025],[3.7132,51.025],[3.7132,51.0251],[3.7132,51.0251],[3.7132,51.0251],[3.7133,51.0251],[3.7133,51.0251],[3.7133,51.0252],[3.7134,51.0252],[3.7134,51.0252],[3.7135,51.0251],[3.7135,51.0251],[3.7136,51.0251],[3.7136,51.0251],[3.7136,51.025],[3.7135,51.025],[3.7135,51.025],[3.7134,51.025],[3.7133,51.0249],[3.7133,51.0249],[3.7132,51.0249],[3.7132,51.025]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "lengte" : "0.0012573427165920438",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    }, {
+      "Groenvlak" : {
+        "voorkomen" : "http://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "oppervlakte" : "7.336891000060451E-8",
+        "geometrie" : {"type":"MultiPolygon","coordinates":[[[[3.7129,51.0253],[3.7129,51.0254],[3.7127,51.0253],[3.7126,51.0254],[3.7126,51.0254],[3.7127,51.0255],[3.7127,51.0255],[3.7127,51.0255],[3.7128,51.0255],[3.7129,51.0255],[3.713,51.0254],[3.7131,51.0254],[3.7131,51.0253],[3.7131,51.0253],[3.713,51.0253],[3.7129,51.0253]]]]},
+        "type" : "http://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "lengte" : "0.0012743051918035102",
+        "nauwkeurigheid" : "http://data.vlaanderen.be/id/conceptscheme/Nauwkeurigsheidsklassen#E"
+      }
+    } 
+  ]
+}

@@ -1,0 +1,1899 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.2.0-Bonn" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer providerKey="ogr" name="desterre desterre" expanded="1" id="desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6" source="./desterre.geojson|layername=desterre|geometrytype=Point" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="desterre desterre" expanded="1" id="desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e" source="./desterre.geojson|layername=desterre|geometrytype=LineString" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="desterre desterre" expanded="1" id="desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9" source="./desterre.geojson|layername=desterre|geometrytype=Polygon" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6</item>
+      <item>desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e</item>
+      <item>desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" type="1" enabled="0" tolerance="12" mode="2" unit="1">
+    <individual-layer-settings>
+      <layer-setting units="1" type="1" enabled="0" tolerance="12" id="desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9"/>
+      <layer-setting units="1" type="1" enabled="0" tolerance="12" id="desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e"/>
+      <layer-setting units="1" type="1" enabled="0" tolerance="12" id="desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>3.7101960183206204</xmin>
+      <ymin>51.02327225667936261</ymin>
+      <xmax>3.71424481832062003</xmax>
+      <ymax>51.02592193167940593</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" name="desterre desterre" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" name="desterre desterre" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" name="desterre desterre" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyAlgorithm="0" autoRefreshEnabled="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" geometry="Point" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>3.71004969999999989</xmin>
+        <ymin>51.02338879999999932</ymin>
+        <xmax>3.7139057000000002</xmax>
+        <ymax>51.02591230000000166</ymax>
+      </extent>
+      <id>desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6</id>
+      <datasource>./desterre.geojson|layername=desterre|geometrytype=Point</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>desterre desterre</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="entrance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="access">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehicle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="note">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="landuse">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="trail_visibility">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bicycle_parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capacity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leisure">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natural">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:part">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:shape">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="barrier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="garden:style">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:housename">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:street">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leaf_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxheight">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="service">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="entrance" index="0" name=""/>
+        <alias field="access" index="1" name=""/>
+        <alias field="highway" index="2" name=""/>
+        <alias field="maxspeed" index="3" name=""/>
+        <alias field="motor_vehicle" index="4" name=""/>
+        <alias field="note" index="5" name=""/>
+        <alias field="surface" index="6" name=""/>
+        <alias field="landuse" index="7" name=""/>
+        <alias field="properties" index="8" name=""/>
+        <alias field="trail_visibility" index="9" name=""/>
+        <alias field="amenity" index="10" name=""/>
+        <alias field="bicycle_parking" index="11" name=""/>
+        <alias field="capacity" index="12" name=""/>
+        <alias field="covered" index="13" name=""/>
+        <alias field="leisure" index="14" name=""/>
+        <alias field="natural" index="15" name=""/>
+        <alias field="building:colour" index="16" name=""/>
+        <alias field="building:levels" index="17" name=""/>
+        <alias field="building:part" index="18" name=""/>
+        <alias field="roof:colour" index="19" name=""/>
+        <alias field="roof:shape" index="20" name=""/>
+        <alias field="type" index="21" name=""/>
+        <alias field="building" index="22" name=""/>
+        <alias field="height" index="23" name=""/>
+        <alias field="parking" index="24" name=""/>
+        <alias field="barrier" index="25" name=""/>
+        <alias field="garden:style" index="26" name=""/>
+        <alias field="material" index="27" name=""/>
+        <alias field="addr:housename" index="28" name=""/>
+        <alias field="addr:street" index="29" name=""/>
+        <alias field="name" index="30" name=""/>
+        <alias field="leaf_type" index="31" name=""/>
+        <alias field="building:material" index="32" name=""/>
+        <alias field="roof:levels" index="33" name=""/>
+        <alias field="maxheight" index="34" name=""/>
+        <alias field="service" index="35" name=""/>
+        <alias field="roof:height" index="36" name=""/>
+        <alias field="oneway" index="37" name=""/>
+        <alias field="crossing" index="38" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="entrance"/>
+        <default applyOnUpdate="0" expression="" field="access"/>
+        <default applyOnUpdate="0" expression="" field="highway"/>
+        <default applyOnUpdate="0" expression="" field="maxspeed"/>
+        <default applyOnUpdate="0" expression="" field="motor_vehicle"/>
+        <default applyOnUpdate="0" expression="" field="note"/>
+        <default applyOnUpdate="0" expression="" field="surface"/>
+        <default applyOnUpdate="0" expression="" field="landuse"/>
+        <default applyOnUpdate="0" expression="" field="properties"/>
+        <default applyOnUpdate="0" expression="" field="trail_visibility"/>
+        <default applyOnUpdate="0" expression="" field="amenity"/>
+        <default applyOnUpdate="0" expression="" field="bicycle_parking"/>
+        <default applyOnUpdate="0" expression="" field="capacity"/>
+        <default applyOnUpdate="0" expression="" field="covered"/>
+        <default applyOnUpdate="0" expression="" field="leisure"/>
+        <default applyOnUpdate="0" expression="" field="natural"/>
+        <default applyOnUpdate="0" expression="" field="building:colour"/>
+        <default applyOnUpdate="0" expression="" field="building:levels"/>
+        <default applyOnUpdate="0" expression="" field="building:part"/>
+        <default applyOnUpdate="0" expression="" field="roof:colour"/>
+        <default applyOnUpdate="0" expression="" field="roof:shape"/>
+        <default applyOnUpdate="0" expression="" field="type"/>
+        <default applyOnUpdate="0" expression="" field="building"/>
+        <default applyOnUpdate="0" expression="" field="height"/>
+        <default applyOnUpdate="0" expression="" field="parking"/>
+        <default applyOnUpdate="0" expression="" field="barrier"/>
+        <default applyOnUpdate="0" expression="" field="garden:style"/>
+        <default applyOnUpdate="0" expression="" field="material"/>
+        <default applyOnUpdate="0" expression="" field="addr:housename"/>
+        <default applyOnUpdate="0" expression="" field="addr:street"/>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="leaf_type"/>
+        <default applyOnUpdate="0" expression="" field="building:material"/>
+        <default applyOnUpdate="0" expression="" field="roof:levels"/>
+        <default applyOnUpdate="0" expression="" field="maxheight"/>
+        <default applyOnUpdate="0" expression="" field="service"/>
+        <default applyOnUpdate="0" expression="" field="roof:height"/>
+        <default applyOnUpdate="0" expression="" field="oneway"/>
+        <default applyOnUpdate="0" expression="" field="crossing"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" field="entrance" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="access" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="highway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxspeed" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="motor_vehicle" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="note" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="surface" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="landuse" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="properties" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="trail_visibility" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="amenity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="bicycle_parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="capacity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="covered" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leisure" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="natural" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:part" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:shape" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="barrier" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="garden:style" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:housename" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:street" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="name" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leaf_type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxheight" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="service" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="oneway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="crossing" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="entrance" exp=""/>
+        <constraint desc="" field="access" exp=""/>
+        <constraint desc="" field="highway" exp=""/>
+        <constraint desc="" field="maxspeed" exp=""/>
+        <constraint desc="" field="motor_vehicle" exp=""/>
+        <constraint desc="" field="note" exp=""/>
+        <constraint desc="" field="surface" exp=""/>
+        <constraint desc="" field="landuse" exp=""/>
+        <constraint desc="" field="properties" exp=""/>
+        <constraint desc="" field="trail_visibility" exp=""/>
+        <constraint desc="" field="amenity" exp=""/>
+        <constraint desc="" field="bicycle_parking" exp=""/>
+        <constraint desc="" field="capacity" exp=""/>
+        <constraint desc="" field="covered" exp=""/>
+        <constraint desc="" field="leisure" exp=""/>
+        <constraint desc="" field="natural" exp=""/>
+        <constraint desc="" field="building:colour" exp=""/>
+        <constraint desc="" field="building:levels" exp=""/>
+        <constraint desc="" field="building:part" exp=""/>
+        <constraint desc="" field="roof:colour" exp=""/>
+        <constraint desc="" field="roof:shape" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="building" exp=""/>
+        <constraint desc="" field="height" exp=""/>
+        <constraint desc="" field="parking" exp=""/>
+        <constraint desc="" field="barrier" exp=""/>
+        <constraint desc="" field="garden:style" exp=""/>
+        <constraint desc="" field="material" exp=""/>
+        <constraint desc="" field="addr:housename" exp=""/>
+        <constraint desc="" field="addr:street" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="leaf_type" exp=""/>
+        <constraint desc="" field="building:material" exp=""/>
+        <constraint desc="" field="roof:levels" exp=""/>
+        <constraint desc="" field="maxheight" exp=""/>
+        <constraint desc="" field="service" exp=""/>
+        <constraint desc="" field="roof:height" exp=""/>
+        <constraint desc="" field="oneway" exp=""/>
+        <constraint desc="" field="crossing" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyAlgorithm="0" autoRefreshEnabled="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" geometry="Line" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>3.71004969999999989</xmin>
+        <ymin>51.02338879999999932</ymin>
+        <xmax>3.7139057000000002</xmax>
+        <ymax>51.02591230000000166</ymax>
+      </extent>
+      <id>desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e</id>
+      <datasource>./desterre.geojson|layername=desterre|geometrytype=LineString</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>desterre desterre</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="229,182,54,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="entrance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="access">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehicle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="note">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="landuse">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="trail_visibility">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bicycle_parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capacity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leisure">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natural">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:part">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:shape">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="barrier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="garden:style">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:housename">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:street">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leaf_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxheight">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="service">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="entrance" index="0" name=""/>
+        <alias field="access" index="1" name=""/>
+        <alias field="highway" index="2" name=""/>
+        <alias field="maxspeed" index="3" name=""/>
+        <alias field="motor_vehicle" index="4" name=""/>
+        <alias field="note" index="5" name=""/>
+        <alias field="surface" index="6" name=""/>
+        <alias field="landuse" index="7" name=""/>
+        <alias field="properties" index="8" name=""/>
+        <alias field="trail_visibility" index="9" name=""/>
+        <alias field="amenity" index="10" name=""/>
+        <alias field="bicycle_parking" index="11" name=""/>
+        <alias field="capacity" index="12" name=""/>
+        <alias field="covered" index="13" name=""/>
+        <alias field="leisure" index="14" name=""/>
+        <alias field="natural" index="15" name=""/>
+        <alias field="building:colour" index="16" name=""/>
+        <alias field="building:levels" index="17" name=""/>
+        <alias field="building:part" index="18" name=""/>
+        <alias field="roof:colour" index="19" name=""/>
+        <alias field="roof:shape" index="20" name=""/>
+        <alias field="type" index="21" name=""/>
+        <alias field="building" index="22" name=""/>
+        <alias field="height" index="23" name=""/>
+        <alias field="parking" index="24" name=""/>
+        <alias field="barrier" index="25" name=""/>
+        <alias field="garden:style" index="26" name=""/>
+        <alias field="material" index="27" name=""/>
+        <alias field="addr:housename" index="28" name=""/>
+        <alias field="addr:street" index="29" name=""/>
+        <alias field="name" index="30" name=""/>
+        <alias field="leaf_type" index="31" name=""/>
+        <alias field="building:material" index="32" name=""/>
+        <alias field="roof:levels" index="33" name=""/>
+        <alias field="maxheight" index="34" name=""/>
+        <alias field="service" index="35" name=""/>
+        <alias field="roof:height" index="36" name=""/>
+        <alias field="oneway" index="37" name=""/>
+        <alias field="crossing" index="38" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="entrance"/>
+        <default applyOnUpdate="0" expression="" field="access"/>
+        <default applyOnUpdate="0" expression="" field="highway"/>
+        <default applyOnUpdate="0" expression="" field="maxspeed"/>
+        <default applyOnUpdate="0" expression="" field="motor_vehicle"/>
+        <default applyOnUpdate="0" expression="" field="note"/>
+        <default applyOnUpdate="0" expression="" field="surface"/>
+        <default applyOnUpdate="0" expression="" field="landuse"/>
+        <default applyOnUpdate="0" expression="" field="properties"/>
+        <default applyOnUpdate="0" expression="" field="trail_visibility"/>
+        <default applyOnUpdate="0" expression="" field="amenity"/>
+        <default applyOnUpdate="0" expression="" field="bicycle_parking"/>
+        <default applyOnUpdate="0" expression="" field="capacity"/>
+        <default applyOnUpdate="0" expression="" field="covered"/>
+        <default applyOnUpdate="0" expression="" field="leisure"/>
+        <default applyOnUpdate="0" expression="" field="natural"/>
+        <default applyOnUpdate="0" expression="" field="building:colour"/>
+        <default applyOnUpdate="0" expression="" field="building:levels"/>
+        <default applyOnUpdate="0" expression="" field="building:part"/>
+        <default applyOnUpdate="0" expression="" field="roof:colour"/>
+        <default applyOnUpdate="0" expression="" field="roof:shape"/>
+        <default applyOnUpdate="0" expression="" field="type"/>
+        <default applyOnUpdate="0" expression="" field="building"/>
+        <default applyOnUpdate="0" expression="" field="height"/>
+        <default applyOnUpdate="0" expression="" field="parking"/>
+        <default applyOnUpdate="0" expression="" field="barrier"/>
+        <default applyOnUpdate="0" expression="" field="garden:style"/>
+        <default applyOnUpdate="0" expression="" field="material"/>
+        <default applyOnUpdate="0" expression="" field="addr:housename"/>
+        <default applyOnUpdate="0" expression="" field="addr:street"/>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="leaf_type"/>
+        <default applyOnUpdate="0" expression="" field="building:material"/>
+        <default applyOnUpdate="0" expression="" field="roof:levels"/>
+        <default applyOnUpdate="0" expression="" field="maxheight"/>
+        <default applyOnUpdate="0" expression="" field="service"/>
+        <default applyOnUpdate="0" expression="" field="roof:height"/>
+        <default applyOnUpdate="0" expression="" field="oneway"/>
+        <default applyOnUpdate="0" expression="" field="crossing"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" field="entrance" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="access" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="highway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxspeed" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="motor_vehicle" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="note" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="surface" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="landuse" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="properties" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="trail_visibility" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="amenity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="bicycle_parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="capacity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="covered" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leisure" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="natural" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:part" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:shape" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="barrier" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="garden:style" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:housename" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:street" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="name" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leaf_type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxheight" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="service" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="oneway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="crossing" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="entrance" exp=""/>
+        <constraint desc="" field="access" exp=""/>
+        <constraint desc="" field="highway" exp=""/>
+        <constraint desc="" field="maxspeed" exp=""/>
+        <constraint desc="" field="motor_vehicle" exp=""/>
+        <constraint desc="" field="note" exp=""/>
+        <constraint desc="" field="surface" exp=""/>
+        <constraint desc="" field="landuse" exp=""/>
+        <constraint desc="" field="properties" exp=""/>
+        <constraint desc="" field="trail_visibility" exp=""/>
+        <constraint desc="" field="amenity" exp=""/>
+        <constraint desc="" field="bicycle_parking" exp=""/>
+        <constraint desc="" field="capacity" exp=""/>
+        <constraint desc="" field="covered" exp=""/>
+        <constraint desc="" field="leisure" exp=""/>
+        <constraint desc="" field="natural" exp=""/>
+        <constraint desc="" field="building:colour" exp=""/>
+        <constraint desc="" field="building:levels" exp=""/>
+        <constraint desc="" field="building:part" exp=""/>
+        <constraint desc="" field="roof:colour" exp=""/>
+        <constraint desc="" field="roof:shape" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="building" exp=""/>
+        <constraint desc="" field="height" exp=""/>
+        <constraint desc="" field="parking" exp=""/>
+        <constraint desc="" field="barrier" exp=""/>
+        <constraint desc="" field="garden:style" exp=""/>
+        <constraint desc="" field="material" exp=""/>
+        <constraint desc="" field="addr:housename" exp=""/>
+        <constraint desc="" field="addr:street" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="leaf_type" exp=""/>
+        <constraint desc="" field="building:material" exp=""/>
+        <constraint desc="" field="roof:levels" exp=""/>
+        <constraint desc="" field="maxheight" exp=""/>
+        <constraint desc="" field="service" exp=""/>
+        <constraint desc="" field="roof:height" exp=""/>
+        <constraint desc="" field="oneway" exp=""/>
+        <constraint desc="" field="crossing" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyAlgorithm="0" autoRefreshEnabled="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" geometry="Polygon" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>3.71004969999999989</xmin>
+        <ymin>51.02338879999999932</ymin>
+        <xmax>3.7139057000000002</xmax>
+        <ymax>51.02591230000000166</ymax>
+      </extent>
+      <id>desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9</id>
+      <datasource>./desterre.geojson|layername=desterre|geometrytype=Polygon</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>desterre desterre</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" locked="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="196,60,57,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="entrance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="access">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehicle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="note">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="landuse">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="trail_visibility">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bicycle_parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capacity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leisure">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natural">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:part">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:colour">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:shape">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="barrier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="garden:style">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:housename">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr:street">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leaf_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building:material">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:levels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxheight">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="service">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roof:height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="entrance" index="0" name=""/>
+        <alias field="access" index="1" name=""/>
+        <alias field="highway" index="2" name=""/>
+        <alias field="maxspeed" index="3" name=""/>
+        <alias field="motor_vehicle" index="4" name=""/>
+        <alias field="note" index="5" name=""/>
+        <alias field="surface" index="6" name=""/>
+        <alias field="landuse" index="7" name=""/>
+        <alias field="properties" index="8" name=""/>
+        <alias field="trail_visibility" index="9" name=""/>
+        <alias field="amenity" index="10" name=""/>
+        <alias field="bicycle_parking" index="11" name=""/>
+        <alias field="capacity" index="12" name=""/>
+        <alias field="covered" index="13" name=""/>
+        <alias field="leisure" index="14" name=""/>
+        <alias field="natural" index="15" name=""/>
+        <alias field="building:colour" index="16" name=""/>
+        <alias field="building:levels" index="17" name=""/>
+        <alias field="building:part" index="18" name=""/>
+        <alias field="roof:colour" index="19" name=""/>
+        <alias field="roof:shape" index="20" name=""/>
+        <alias field="type" index="21" name=""/>
+        <alias field="building" index="22" name=""/>
+        <alias field="height" index="23" name=""/>
+        <alias field="parking" index="24" name=""/>
+        <alias field="barrier" index="25" name=""/>
+        <alias field="garden:style" index="26" name=""/>
+        <alias field="material" index="27" name=""/>
+        <alias field="addr:housename" index="28" name=""/>
+        <alias field="addr:street" index="29" name=""/>
+        <alias field="name" index="30" name=""/>
+        <alias field="leaf_type" index="31" name=""/>
+        <alias field="building:material" index="32" name=""/>
+        <alias field="roof:levels" index="33" name=""/>
+        <alias field="maxheight" index="34" name=""/>
+        <alias field="service" index="35" name=""/>
+        <alias field="roof:height" index="36" name=""/>
+        <alias field="oneway" index="37" name=""/>
+        <alias field="crossing" index="38" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="entrance"/>
+        <default applyOnUpdate="0" expression="" field="access"/>
+        <default applyOnUpdate="0" expression="" field="highway"/>
+        <default applyOnUpdate="0" expression="" field="maxspeed"/>
+        <default applyOnUpdate="0" expression="" field="motor_vehicle"/>
+        <default applyOnUpdate="0" expression="" field="note"/>
+        <default applyOnUpdate="0" expression="" field="surface"/>
+        <default applyOnUpdate="0" expression="" field="landuse"/>
+        <default applyOnUpdate="0" expression="" field="properties"/>
+        <default applyOnUpdate="0" expression="" field="trail_visibility"/>
+        <default applyOnUpdate="0" expression="" field="amenity"/>
+        <default applyOnUpdate="0" expression="" field="bicycle_parking"/>
+        <default applyOnUpdate="0" expression="" field="capacity"/>
+        <default applyOnUpdate="0" expression="" field="covered"/>
+        <default applyOnUpdate="0" expression="" field="leisure"/>
+        <default applyOnUpdate="0" expression="" field="natural"/>
+        <default applyOnUpdate="0" expression="" field="building:colour"/>
+        <default applyOnUpdate="0" expression="" field="building:levels"/>
+        <default applyOnUpdate="0" expression="" field="building:part"/>
+        <default applyOnUpdate="0" expression="" field="roof:colour"/>
+        <default applyOnUpdate="0" expression="" field="roof:shape"/>
+        <default applyOnUpdate="0" expression="" field="type"/>
+        <default applyOnUpdate="0" expression="" field="building"/>
+        <default applyOnUpdate="0" expression="" field="height"/>
+        <default applyOnUpdate="0" expression="" field="parking"/>
+        <default applyOnUpdate="0" expression="" field="barrier"/>
+        <default applyOnUpdate="0" expression="" field="garden:style"/>
+        <default applyOnUpdate="0" expression="" field="material"/>
+        <default applyOnUpdate="0" expression="" field="addr:housename"/>
+        <default applyOnUpdate="0" expression="" field="addr:street"/>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="leaf_type"/>
+        <default applyOnUpdate="0" expression="" field="building:material"/>
+        <default applyOnUpdate="0" expression="" field="roof:levels"/>
+        <default applyOnUpdate="0" expression="" field="maxheight"/>
+        <default applyOnUpdate="0" expression="" field="service"/>
+        <default applyOnUpdate="0" expression="" field="roof:height"/>
+        <default applyOnUpdate="0" expression="" field="oneway"/>
+        <default applyOnUpdate="0" expression="" field="crossing"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" field="entrance" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="access" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="highway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxspeed" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="motor_vehicle" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="note" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="surface" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="landuse" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="properties" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="trail_visibility" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="amenity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="bicycle_parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="capacity" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="covered" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leisure" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="natural" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:part" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:colour" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:shape" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="parking" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="barrier" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="garden:style" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:housename" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="addr:street" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="name" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="leaf_type" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="building:material" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:levels" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="maxheight" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="service" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="roof:height" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="oneway" constraints="0" unique_strength="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="crossing" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="entrance" exp=""/>
+        <constraint desc="" field="access" exp=""/>
+        <constraint desc="" field="highway" exp=""/>
+        <constraint desc="" field="maxspeed" exp=""/>
+        <constraint desc="" field="motor_vehicle" exp=""/>
+        <constraint desc="" field="note" exp=""/>
+        <constraint desc="" field="surface" exp=""/>
+        <constraint desc="" field="landuse" exp=""/>
+        <constraint desc="" field="properties" exp=""/>
+        <constraint desc="" field="trail_visibility" exp=""/>
+        <constraint desc="" field="amenity" exp=""/>
+        <constraint desc="" field="bicycle_parking" exp=""/>
+        <constraint desc="" field="capacity" exp=""/>
+        <constraint desc="" field="covered" exp=""/>
+        <constraint desc="" field="leisure" exp=""/>
+        <constraint desc="" field="natural" exp=""/>
+        <constraint desc="" field="building:colour" exp=""/>
+        <constraint desc="" field="building:levels" exp=""/>
+        <constraint desc="" field="building:part" exp=""/>
+        <constraint desc="" field="roof:colour" exp=""/>
+        <constraint desc="" field="roof:shape" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="building" exp=""/>
+        <constraint desc="" field="height" exp=""/>
+        <constraint desc="" field="parking" exp=""/>
+        <constraint desc="" field="barrier" exp=""/>
+        <constraint desc="" field="garden:style" exp=""/>
+        <constraint desc="" field="material" exp=""/>
+        <constraint desc="" field="addr:housename" exp=""/>
+        <constraint desc="" field="addr:street" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="leaf_type" exp=""/>
+        <constraint desc="" field="building:material" exp=""/>
+        <constraint desc="" field="roof:levels" exp=""/>
+        <constraint desc="" field="maxheight" exp=""/>
+        <constraint desc="" field="service" exp=""/>
+        <constraint desc="" field="roof:height" exp=""/>
+        <constraint desc="" field="oneway" exp=""/>
+        <constraint desc="" field="crossing" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="desterre_desterre_9c0cc85d_a9ed_4602_9e51_21805d3271a6"/>
+    <layer id="desterre_desterre_aef8b9a3_45aa_4032_b930_88528628843e"/>
+    <layer id="desterre_desterre_c7432910_a1ea_4ff8_a8be_01218af4e1f9"/>
+  </layerorder>
+  <properties>
+    <PAL>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+    </PAL>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Jens Scheerlinck</author>
+    <creation>2018-07-04T11:30:40</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

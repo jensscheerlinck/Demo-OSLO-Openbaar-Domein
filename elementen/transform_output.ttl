@@ -1,0 +1,35 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+
+[]
+  a <http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel> ;
+  adms:identifier "picknicktafel_identificator_fe513e16-aefb-47a5-8576-80b109251d15" ;
+  locn:geometry [
+    geosparql:asWKT "POINT(3.712,51.0248)"^^geosparql:wktLiteral ;
+    a <http://www.opengis.net/ont/sf#Point>
+  ] .
+
+[]
+  a <http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel> ;
+  adms:identifier "picknicktafel_identificator_4c50ea56-0259-4470-9bcd-b11e26ccd39f" ;
+  locn:geometry [
+    geosparql:asWKT "POINT(3.7119,51.0255)"^^geosparql:wktLiteral ;
+    a <http://www.opengis.net/ont/sf#Point>
+  ] .
+
+[]
+  a <http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel> ;
+  adms:identifier "picknicktafel_identificator_1b9a0514-f828-4a6a-8948-91f57bf6634b" ;
+  locn:geometry [
+    geosparql:asWKT "POINT(3.7117,51.0243)"^^geosparql:wktLiteral ;
+    a <http://www.opengis.net/ont/sf#Point>
+  ] .
+
+[]
+  a <http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel> ;
+  adms:identifier "picknicktafel_identificator_55610f59-1d3d-4b13-a7d8-219b6c665267" ;
+  locn:geometry [
+    geosparql:asWKT "POINT(3.7119,51.0255)"^^geosparql:wktLiteral ;
+    a <http://www.opengis.net/ont/sf#Point>
+  ] .

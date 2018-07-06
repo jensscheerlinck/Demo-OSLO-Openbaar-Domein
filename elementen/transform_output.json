@@ -1,0 +1,30 @@
+[ 
+  {
+    "picknicktafel" : {
+      "geometrie" : {"type":"Point","coordinates":"POINT(3.712,51.0248)"},
+      "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel",
+      "identificator" : "picknicktafel_identificator_fe513e16-aefb-47a5-8576-80b109251d15"
+    }
+  }, 
+  {
+    "picknicktafel" : {
+      "geometrie" : {"type":"Point","coordinates":"POINT(3.7119,51.0255)"},
+      "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel",
+      "identificator" : "picknicktafel_identificator_4c50ea56-0259-4470-9bcd-b11e26ccd39f"
+    }
+  }, 
+  {
+    "picknicktafel" : {
+      "geometrie" : {"type":"Point","coordinates":"POINT(3.7117,51.0243)"},
+      "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel",
+      "identificator" : "picknicktafel_identificator_1b9a0514-f828-4a6a-8948-91f57bf6634b"
+    }
+  }, 
+  {
+    "picknicktafel" : {
+      "geometrie" : {"type":"Point","coordinates":"POINT(3.7119,51.0255)"},
+      "type" : "http://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Picknicktafel",
+      "identificator" : "picknicktafel_identificator_55610f59-1d3d-4b13-a7d8-219b6c665267"
+    }
+  }
+]
